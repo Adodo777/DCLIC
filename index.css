@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+body{
+    background-color:  #f2ebe3;
+}
+.card-out{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 40%;
+    min-height: 400px;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-img{
+    width: 50%;
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-detail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    justify-content: space-between;
+    padding: 30px 35px;
+    margin: 0px;
+
+}
+.card-detail-type{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6c7289;
+    
+}
+.card-detail-title{
+    font-family: fraunces;
+    font-size: 35px;
+    margin: 0px;
+    line-height: 30px;
+    color: #1c232b;
+}
+.card-detail-description{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6c7289;
+    padding-top: 5px;
+}
+.card-detail-price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.card-detail-price-promo{
+    color: #3c8067;
+    font-family: fraunces;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+.card-detail-price-off{
+    font-family: Montserrat;
+    text-decoration:line-through;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6c7289;
+}
+button{
+    all: unset;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.card-detail-btn{
+    background-color: #3c8067;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    
+}
+svg{
+    width: 20px;
+    height: 15px;
+    fill: white;
+}
+.card-detail-btn-txt{
+    font-family: Montserrat;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}

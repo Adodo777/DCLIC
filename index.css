@@ -4,6 +4,7 @@
 body{
     background-color:  #f2ebe3;
     box-sizing: border-box;
+    margin: 0%;
 }
 .card-out{
     width: 100%;
@@ -133,7 +134,7 @@ svg{
     .card{
         width:90%;
         min-width: 345px;
-        height: 95vh;
+        height: auto;
         grid-template-columns: repeat(1, 1fr);
         box-sizing: border-box;
     }
